@@ -1,7 +1,7 @@
 // LOAD DATA
-
 const noteData = require('db/db.json');
 const fs = require('fs');
+const { v4: uuidv4 } = require('uuid');
 
 // ROUTING
 
@@ -26,10 +26,11 @@ module.exports = (app) => {
     // It will do this by sending out the value "true" have a table
     // req.body is available since we're using the body parsing middleware
     const newNote = req.body;
+    newNote.id = uuidv4();
 
     console.log(newNote);
 
-    fs.writeFileSync('db.json', newNote);
+    fs.writeFileSync('db.json', newNote, newNote.id);
 
     noteListItems.push(newNote);
     res.json(newNote);
