@@ -1,11 +1,10 @@
 // LOAD DATA
 const fs = require('fs');
-const noteData = readNotes();
 const { v4: uuidv4 } = require('uuid');
 
 //Creating a function to read db.json file and give each note a unique id when saved.
 const readNotes = () => {
-  let noteEntries = fs.readFile('/db/db.json', 'utf8', function(err, data) {
+  let noteEntries = fs.readFileSync('db/db.json', 'utf8', function(err, data) {
     if (err) throw err;
     console.log(data);
   });
@@ -13,14 +12,16 @@ const readNotes = () => {
   let notes = JSON.parse(noteEntries);
 
   //Using uuid npm package to add unique id to each note.
-  for (let i = 0; i < notes.length; i++) {
+  /*for (let i = 0; i < notes.length; i++) {
     newNote.id = uuidv4();
-}
+}*/
 
   return notes;
 
 }
 
+
+let noteData = readNotes();
 // ROUTING
 
 module.exports = (app) => {
@@ -28,6 +29,25 @@ module.exports = (app) => {
   // Below code handles when users "visit" a page.
   // In each of the below cases when a user visits a link they are shown a JSON of the data in db.json)
   // ---------------------------------------------------------------------------
+
+  /*const readNotes = () => {
+    let noteEntries = fs.readFile('/db/db.json', 'utf8', function(err, data) {
+      if (err) throw err;
+      console.log(data);
+    });
+  
+    let notes = JSON.parse(noteEntries);
+  
+    //Using uuid npm package to add unique id to each note.
+    for (let i = 0; i < notes.length; i++) {
+      newNote.id = uuidv4();
+  }
+  
+    return notes;
+  
+  }*/
+
+
   app.get('/api/notes', (req, res) => {
     noteData = readNotes();
     res.json(noteData);

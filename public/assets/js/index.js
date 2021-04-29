@@ -1,7 +1,3 @@
-require('./routes/apiRoutes')(app);
-require('./routes/htmlRoutes')(app);
-
-
 let noteTitle;
 let noteText;
 let saveNoteBtn;
