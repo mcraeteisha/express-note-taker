@@ -2,10 +2,10 @@
 Note Taker is an application that can be used to write and save notes. The application was built using an Express.js back end and can save and retrieve note data from a JSON file.
 
 ## Link to Deployed Application
-[Note Taker](https://tjm-express-note-taker.herokuapp.com/)
+[Note Taker App](https://tjm-express-note-taker.herokuapp.com/)
 
 ## Link to Walkthrough Video
-[Note Taker](https://www.loom.com/share/3969ceff0b4148e0a66767f694cd225e)
+[Note Taker Video](https://www.loom.com/share/3969ceff0b4148e0a66767f694cd225e)
 
 ## Technologies Used
 * HTML
