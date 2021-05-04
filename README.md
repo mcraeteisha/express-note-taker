@@ -47,4 +47,4 @@ I have to take the time to thank my tutor, Mr. Jones, for helping me debug my co
 
 ![Website Screenshot](https://user-images.githubusercontent.com/73713665/116962335-b0a8c880-ac73-11eb-9e88-db3834b81152.png)
 
-![Website Screenshot](https://user-images.githubusercontent.com/73713665/116962370-c7e7b600-ac73-11eb-8b6c-7ddc2958c9b9.png)
+![Website Screenshot](https://user-images.githubusercontent.com/73713665/116963969-46deed80-ac78-11eb-8656-61a5b0485411.pn)
