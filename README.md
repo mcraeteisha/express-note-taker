@@ -14,9 +14,9 @@ Note Taker is an application that can be used to write and save notes. The appli
  
 ## Work Completed
 
-To complete this project, I created a HTML, CSS, and Javascript files to build a code quiz.
+To complete this project, I used HTML, Javascript, and Express to build a Note Taking app.
 
-Using VS Code, I completed the following:
+Using VS Code, my Terminal, and Heroku, I completed the following:
 
 * Created HTML routes that returned HTML files to the user.
 * Created API routes that returned JSON data to the user and saved the user's notes to a JSON file.
