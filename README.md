@@ -2,10 +2,10 @@
 Note Taker is an application that can be used to write and save notes. The application was built using an Express.js back end and can save and retrieve note data from a JSON file.
 
 ## Link to Deployed Application
-[Note Taker](https://mcraeteisha.github.io/code-quiz/)
+[Note Taker](https://tjm-express-note-taker.herokuapp.com/)
 
 ## Link to Walkthrough Video
-[Note Taker](https://mcraeteisha.github.io/code-quiz/)
+[Note Taker](https://www.loom.com/share/3969ceff0b4148e0a66767f694cd225e)
 
 ## Technologies Used
 * HTML
@@ -32,11 +32,11 @@ Some of the learnings I’m taking away from this project are:
 2. Making the list items clickable eluded me.
 3. My TA helped me with my file structure and helped me to better understand how this particular assignment should be organized and why I was running into issues with my previous file setup.
 4. Deploying to Heroku.
+5. I had the hardest time getting the active note to appear in the right-hand portion of the screen. I thought that something was wrong in my code, but it turns out that I wasn't clicking the list items in the correct place to get them show up on the screen. This will teach me to be more thorough and patient with my testing in the future.
 
 ## Future Application Updates
 
 * Add a functioning delete button
-* Get active note/clicked note to appear in the right-hand of the screen
 
  
 ## Contributors
